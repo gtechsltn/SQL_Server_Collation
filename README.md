@@ -23,6 +23,33 @@ View Collation Information
 
 https://learn.microsoft.com/en-us/sql/relational-databases/collations/view-collation-information
 
+# Collation can be set at various levels:
++ Server
++ Database
++ Column
+
+You could have a Case Sensitive Column in a Case Insensitive database.
+
+I have not yet come across a situation where a business case could be made for case sensitivity of a single column of data, but I suppose there could be.
+
+### Check Server Collation
+```
+SELECT SERVERPROPERTY('COLLATION')
+```
+
+### Check Database Collation
+```
+SELECT DATABASEPROPERTYEX('AdventureWorks', 'Collation') SQLCollation;
+```
+
+### Check Column Collation
+```
+select table_name, column_name, collation_name
+from INFORMATION_SCHEMA.COLUMNS
+where table_name = @table_name
+```
+
+# Script SQL Server Sample
 
 ```
 USE [master]
