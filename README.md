@@ -24,6 +24,9 @@ View Collation Information
 https://learn.microsoft.com/en-us/sql/relational-databases/collations/view-collation-information
 
 # Collation can be set at various levels:
+
+https://stackoverflow.com/questions/1411161/sql-server-check-case-sensitivity
+
 + Server
 + Database
 + Column
