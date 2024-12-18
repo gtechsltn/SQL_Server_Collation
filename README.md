@@ -7,6 +7,14 @@ Collations and Case Sensitivity
 
 https://learn.microsoft.com/en-us/ef/core/miscellaneous/collations-and-case-sensitivity
 
+Set or change the database collation
+
+https://learn.microsoft.com/en-us/sql/relational-databases/collations/set-or-change-the-database-collation
+
+Set or Change the Column Collation
+
+https://learn.microsoft.com/en-us/sql/relational-databases/collations/set-or-change-the-column-collation
+
 Collation and Unicode support
 
 https://learn.microsoft.com/en-us/sql/relational-databases/collations/collation-and-unicode-support
