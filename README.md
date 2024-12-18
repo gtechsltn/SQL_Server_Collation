@@ -1,7 +1,11 @@
 # SQL Server Collation
-+ Case Insensitive
-+ Case Sensitive
-+ Case Sensitivity
+
++ Server
++ Database
++ Column
+
++ Case Insensitive (Insensitivity)
++ Case Sensitive (Sensitivity)
 
 Collations and Case Sensitivity
 
